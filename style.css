@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(movie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* centers the background image */
+    opacity: 0.9;
+}
+
+
+
+
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+}
+
+.container {
+    background-color: rgb(11, 11, 11);
+    width: 117vh;
+    height: 38vh;
+    border-radius: 35px;
+
+}
+
+
+.item {
+
+    border-radius: 10px;
+    margin: 42px 235px;
+    padding: 5px -9px;
+    background: rgb(248, 238, 238);
+}
+#movieInput{
+    font-size: 20px;
+    border-radius: 20px;
+    margin: -8px;
+    padding: 10px;
+}
+#result{
+   background-color: #000305;
+   color: white; 
+   padding: 10px;
+   margin:10px;
+   border-radius: 10px;
+}
+
+.backbtn {
+
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(116, 116, 191);
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #000305;
+    border-radius: 9px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: black;
+}
+
+
+.border {
+    background-color: #000305;
+    color: #ffffff;
+    margin: -22px;
+    padding: 17px;
+    border-radius: 20px;
+}
+
+img {
+    margin-left: 30px;
+    width: 132px;
+    height: 148px;
+}
+
+.Center {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
